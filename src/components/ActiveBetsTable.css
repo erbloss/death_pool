@@ -6,6 +6,8 @@ table {
     justify-self: center;
     text-align: justify;
     border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 tr {

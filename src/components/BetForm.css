@@ -1,5 +1,7 @@
 div {
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 form {
@@ -40,4 +42,9 @@ h5 {
     text-align: justify;
     margin-left: 250px;
     margin-right: 250px;
+}
+
+.rulesSection {
+    display: flex;
+    flex-wrap: wrap;
 }
