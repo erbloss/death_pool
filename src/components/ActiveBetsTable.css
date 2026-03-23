@@ -1,0 +1,22 @@
+table {
+    width: 50%;
+    margin-top: 20px;
+    border-width: 5px;
+    border-radius: 8px;
+    justify-self: center;
+    text-align: justify;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgba(188, 23, 23, 0.272);
+    text-transform: uppercase;
+}
