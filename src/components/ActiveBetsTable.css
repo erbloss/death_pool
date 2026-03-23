@@ -1,20 +1,16 @@
 table {
-    width: 50%;
-    margin-top: 20px;
-    border-width: 5px;
+    width: 100%;
+    margin-top: 10px;
+    border-width: 20px auto;
     border-radius: 8px;
+    border-collapse: collapse;
     justify-self: center;
     text-align: justify;
-    border-collapse: collapse;
 }
 
 /* Rows */
 tr {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: center;
-    border-radius: 8px;
-    border-collapse: collapse;
+    border-bottom: 1px solid #444;
 }
 
 tr:hover {
@@ -25,35 +21,22 @@ tr:hover {
 th {
     background-color: rgba(188, 23, 23, 0.272);
     text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 /* Cells */
 td {
-    padding: 10px;
-    font-size: 0.95rem;
+    padding: 12px;
+    text-align: center;
+    white-space: nowrap;
 }
 
 /* MOBILE STYLNG */
 @media (max-width: 600px) {
     table {
-        border: none;
-    }
-
-    thead {
-        display: block;
-        margin-bottom: 15px;
-        border: 1px sold #333;
-        border-radius: 8px;
-        padding: 10px;
-    }
-
-    td {
-        display: flex;
-        justify-content: space-between;
-        padding: 8px 10px;
         font-size: 0.9rem;
-        border: none;
+        min-width: 300px;
     }
-
-
 }

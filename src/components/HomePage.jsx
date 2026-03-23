@@ -49,20 +49,22 @@ export default function HomePage() {
             <h2 style={{ color: "DarkKhaki", fontSize: "300%" }}>CURRENT PAYOUT : ${totalPot}</h2>
 
 
-            <h4>&gt;&gt;&gt;&gt;&gt; Want to jump in the pool? Place your bet <Link to="/bet">HERE</Link> &lt;&lt;&lt;&lt;&lt;</h4>
+            <h4 className="betLink">&gt;&gt;&gt;&gt;&gt; Want to jump in the pool? Place your bet <Link to="/bet">HERE</Link> &lt;&lt;&lt;&lt;&lt;</h4>
             <br />
-
-            <h2>CURRENT BETS</h2>
-            <div className="tableContainer">
-                <ActiveBetsTable data={activeBets} />
+            <div className="section">
+                <h2>CURRENT BETS</h2>
+                <div className="tableContainer">
+                    <ActiveBetsTable data={activeBets} />
+                </div>
+                <p style={{ fontSize: "10px" }}>*NOTE: Your entry will only appear here after admin verification.</p>
             </div>
-            <p style={{ fontSize: "10px" }}>*NOTE: Your entry will only appear here after admin verification.</p>
             <br />
             <br />
-
-            <h2>PREVIOUS WINNERS</h2>
-            <div className="tableContainer">
-                <ActiveBetsTable data={previousWinners} />
+            <div className="section">
+                <h2>PREVIOUS WINNERS</h2>
+                <div className="tableContainer">
+                    <ActiveBetsTable data={previousWinners} />
+                </div>
             </div>
 
             <br />
