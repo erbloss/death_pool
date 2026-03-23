@@ -3,6 +3,7 @@ import { supabase } from "../lib/supabaseClient";
 import { Link } from "react-router-dom";
 import ActiveBetsTable from "./ActiveBetsTable";
 import RealTimeClock from "./RealTimeClock";
+import "./HomePage.css";
 
 export default function HomePage() {
 
@@ -41,23 +42,28 @@ export default function HomePage() {
 
     // ------------  frontend ------------------------------
     return (
-        <div>
+        <div className="homepage">
             <h1>xX 💀 DEATH POOL 💀 Xx</h1>
             <br />
 
             <h2 style={{ color: "DarkKhaki", fontSize: "300%" }}>CURRENT PAYOUT : ${totalPot}</h2>
 
+
             <h4>&gt;&gt;&gt;&gt;&gt; Want to jump in the pool? Place your bet <Link to="/bet">HERE</Link> &lt;&lt;&lt;&lt;&lt;</h4>
             <br />
 
             <h2>CURRENT BETS</h2>
-            <ActiveBetsTable data={activeBets} />
+            <div className="tableContainer">
+                <ActiveBetsTable data={activeBets} />
+            </div>
             <p style={{ fontSize: "10px" }}>*NOTE: Your entry will only appear here after admin verification.</p>
             <br />
             <br />
 
             <h2>PREVIOUS WINNERS</h2>
-            <ActiveBetsTable data={previousWinners} />
+            <div className="tableContainer">
+                <ActiveBetsTable data={previousWinners} />
+            </div>
 
             <br />
             <br />

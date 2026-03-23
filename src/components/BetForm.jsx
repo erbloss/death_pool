@@ -76,7 +76,7 @@ export default function BetForm() {
             <h1>💀 xX   DEATH POOL   Xx 💀</h1>
             <br />
             <h2>Which celebrity do you wager will go next ?!?</h2>
-            <br />
+            <br /><br />
 
             <form onSubmit={handleSubmit}>
                 <div className="form-row">
@@ -148,15 +148,15 @@ export default function BetForm() {
             <br />
             <br />
             <div className="ruleSection">
-                <h1>Official Rules</h1>
+                <h1 style={{ fontSize: "40px" }}>Official Rules</h1>
 
-                <h5> RULE 1: Each entry is a $20 buy-in via Venmo.  You may place multiple entries if you'd like to increase your odds of winning. </h5>
+                <h5> <strong>RULE 1:</strong>Each entry is a $20 buy-in via Venmo.  You may place multiple entries if you'd like to increase your odds of winning. </h5>
 
-                <h5> RULE 2: Entries must be A/B list celebrities.  Politicians are acceptable, but must be serving/have served their term in the United States.  Validity of your entry is subject to the discretion of admin and your entry may become void. </h5>
+                <h5> <strong>RULE 2:</strong> Entries must be A/B list celebrities.  Politicians are acceptable, but must be serving/have served their term in the United States.  Validity of your entry is subject to the discretion of admin and your entry may become void. </h5>
 
-                <h5> RULE 3: There may be no duplicate entries.  Attempting to copy another player's bet will result in an error and we will boo you for being unoriginal.</h5>
+                <h5> <strong>RULE 3:</strong>There may be no duplicate entries.  Attempting to copy another player's bet will result in an error and we will boo you for being unoriginal.</h5>
 
-                <h5> RULE 4: The person who's celebrity kicks the bucket first will take the entire pot.  All bets become null at that point and a subsequent round of Death Pool will begin with new entries on a first come, first serve basis. </h5>
+                <h5> <strong>RULE 4:</strong> The person who's celebrity kicks the bucket first will take the entire pot.  All bets become null at that point and a subsequent round of Death Pool will begin with new entries on a first come, first serve basis. </h5>
 
                 <br />
                 <br />
