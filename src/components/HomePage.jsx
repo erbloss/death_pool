@@ -70,7 +70,7 @@ export default function HomePage() {
             <br />
             <br />
             <br />
-            <p style={{ fontSize: "10px" }}>*DISCLAIMER: Death Pool is strictly for dark whimsy and bragging rights. While names have been entered, no curses have been cast, and no ill will is intended toward any person mentioned.</p>
+            <p style={{ fontSize: "12px" }}>*DISCLAIMER: Death Pool is strictly for dark whimsy and bragging rights. While names have been entered, no curses have been cast, and no ill will is intended toward any person mentioned.</p>
             <RealTimeClock />
         </div>
     );

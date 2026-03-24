@@ -134,7 +134,7 @@ export default function BetForm() {
                     />
                 </div><br />
 
-                <p style={{ fontSize: "10px" }}>*NOTE: You will be redirected to Venmo for payment after submitting your entry.</p>
+                <p style={{ fontSize: "10px" }}>*NOTE: You will be redirected to Venmo for payment after submitting your entry. Please login and pay $20 to lock-in your bet.</p>
 
                 <button type="SUBMIT">Submit Bet</button>
 
@@ -150,7 +150,7 @@ export default function BetForm() {
             <div className="ruleSection">
                 <h1 style={{ fontSize: "40px" }}>Official Rules</h1>
 
-                <h5> <strong>RULE 1:</strong>Each entry is a $20 buy-in via Venmo.  You may place multiple entries if you'd like to increase your odds of winning. </h5>
+                <h5> <strong>RULE 1:</strong>Each entry is a $20 buy-in via Venmo.  You may place up to 3 entries if you'd like to increase your odds of winning. </h5>
 
                 <h5> <strong>RULE 2:</strong> Entries must be A/B list celebrities.  Politicians are acceptable, but must be serving/have served their term in the United States.  Validity of your entry is subject to the discretion of admin and your entry may become void. </h5>
 
